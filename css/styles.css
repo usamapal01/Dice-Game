@@ -1,0 +1,60 @@
+body {
+  background-color: #293462;
+}
+
+.heading {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 10rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+  color: #F24C4C;
+}
+
+h3 {
+  font-family: 'Charm', cursive;
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+  color: #F24C4C;
+}
+ p{
+   color: white;;
+ }
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.heading {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 10rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+  color: #F24C4C;
+}
+
+.dice-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer section */
+#footer{
+  text-align: center;
+
+}
+
+.social-icon {
+  margin: 20px 10px;
+  font-size: 32px;
+  color: #EC9B3B;
+}
+
+.social-icon:hover{
+  font-size: 64px;
+  color: #F7D716;
+}
