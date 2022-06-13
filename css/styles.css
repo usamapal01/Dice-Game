@@ -2,15 +2,6 @@ body {
   background-color: #293462;
 }
 
-.heading {
-  font-family: 'Covered By Your Grace', cursive;
-  font-size: 10rem;
-  font-weight: 900;
-  line-height: 1.5;
-  text-align: center;
-  color: #F24C4C;
-}
-
 h3 {
   font-family: 'Charm', cursive;
   font-size: 6rem;
@@ -19,13 +10,22 @@ h3 {
   text-align: center;
   color: #F24C4C;
 }
- p{
-   color: white;;
- }
+
+a:link {
+  text-decoration: none;
+}
+
+
+p {
+  color: white;
+  ;
+}
 
 .container-fluid {
   padding: 7% 15%;
 }
+
+/* Heading Section */
 
 .heading {
   font-family: 'Covered By Your Grace', cursive;
@@ -36,6 +36,13 @@ h3 {
   color: #F24C4C;
 }
 
+.heading:hover {
+  text-decoration: none;
+  font-size: 12rem;
+  color: #D61C4E;
+}
+
+/* Dice Images */
 .dice-img {
   display: block;
   margin-left: auto;
@@ -43,9 +50,8 @@ h3 {
 }
 
 /* Footer section */
-#footer{
+#footer {
   text-align: center;
-
 }
 
 .social-icon {
@@ -54,7 +60,7 @@ h3 {
   color: #EC9B3B;
 }
 
-.social-icon:hover{
+.social-icon:hover {
   font-size: 64px;
   color: #F7D716;
 }
